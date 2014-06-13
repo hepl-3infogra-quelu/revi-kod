@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="fr_BE">
+    <head>
+        <meta charset="UTF-8" />
+        <title>HEPLBox - La lightbox qu'elle est bien.</title>
+
+        <link rel="stylesheet" href="styles/styles.css" />
+
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="wrapper">
+            <header class="page-header">
+                <h1>revi kòd</h1>
+            </header>
+
+            <section class="hero-unit">
+                <h2>Mode solo</h2>
+
+                <p>Il n'y a qu'une seule image, ici.</p>
+
+                <p id="unique" class="clearfix">
+                    <a href="images/bigs/ducks.jpg" class="thumbnail">
+                        <img src="images/thumbs/ducks.jpg" alt="ducks" height="100" />
+                    </a>
+                </p>
+
+                <h2>Mode multi</h2>
+
+                <p>Ça va boucler, chérie...</p>
+
+                <p id="many" class="clearfix">
+                    <a href="images/bigs/fire.jpg" class="thumbnail">
+                        <img src="images/thumbs/fire.jpg" alt="fire" height="100" />
+                    </a>
+                    <a href="images/bigs/flowers.jpg" class="thumbnail">
+                        <img src="images/thumbs/flowers.jpg" alt="flowers" height="100" />
+                    </a>
+                    <a href="images/bigs/pipes.jpg" class="thumbnail">
+                        <img src="images/thumbs/pipes.jpg" alt="pipes" height="100" />
+                    </a>
+                    <a href="images/bigs/new_born.jpg" class="thumbnail">
+                        <img src="images/thumbs/new_born.jpg" alt="new born" height="100" />
+                    </a>
+                    <a href="images/bigs/insect_everest.jpg" class="thumbnail">
+                        <img src="images/thumbs/insect_everest.jpg" alt="insect everest" height="100" />
+                    </a>
+                </p>
+            </section>
+        </div>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.heplbox.js"></script>
+        <script>
+            jQuery( function() {
+                jQuery( '#unique a.thumbnail' ).heplbox();
+                jQuery( '#many a.thumbnail' ).heplbox();
+            } );
+        </script>
+    </body>
+</html>

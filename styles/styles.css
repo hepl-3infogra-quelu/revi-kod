@@ -1,0 +1,31 @@
+/* ria.exos.flatland.be - Notes de cours en ligne pour le cours de RIA - Applications Internet Riches
+ * CSS Document - /jquery/heplbox/styles/styles.css
+ * coded by Pierre-Antoine Delnatte
+ * september 2012
+ */
+
+@import url( "bootstrap.css" );
+
+html {
+	background: silver url( img/noisy_grid.png ) top left repeat;
+}
+
+body {
+	background: transparent;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 40px auto;
+}
+
+.hero-unit {
+	box-shadow: 0 0 25px #888;
+    background: white;
+}
+
+.thumbnail {
+	height: 100px;
+	float: left;
+	margin: 0 5px 0 0;
+}
