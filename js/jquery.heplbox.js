@@ -26,9 +26,7 @@
             $container;
 
         var setup = function() {
-            $overlay = $( 'body > div.' + oSettings.cssPrefix + 'overlay' );
-            $container = $( 'body > div.' + oSettings.cssPrefix + 'container' );
-            if( !$overlay.size() ) {
+            if( !( $overlay = $( 'body > div.' + oSettings.cssPrefix + 'overlay' ) ).size() ) {
                 $overlay = $( '<div class="' + oSettings.cssPrefix + 'overlay"></div>' ).css( {
                     width: "100%",
                     height: "100%",
@@ -40,7 +38,7 @@
                     cursor: 'pointer'
                 } ).hide().appendTo( 'body' ).on( 'click.heplbox', closeBox );
             }
-            if( !$container.size() ) {
+            if( !( $container = $( 'body > div.' + oSettings.cssPrefix + 'container' ) ).size() ) {
                 $container = $( '<div class="' + oSettings.cssPrefix + 'container"></div>' ).css( {
                     width: 50,
                     height: 50,
