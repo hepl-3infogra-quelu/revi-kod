@@ -14,7 +14,7 @@
 
 Une *revue de code* est un processus d'examination du code réalisé par d'autres personnes. 
 
-Souvent pratiqué au sein d'une même équipe afin d'augmenter ce qu'on appelle la *couverture du code* : le processus de revue permet de débusquer d'éventuels bugs et/ou problèmes de conception, ainsi que de s'assurer la compréhension du code par tous les membres de l'équipe.
+Souvent pratiqué au sein d'une même équipe afin d'augmenter ce qu'on appelle la *couverture du code*, le processus de revue permet de débusquer d'éventuels bugs et/ou problèmes de conception, ainsi que de s'assurer la compréhension du code par tous les membres de l'équipe.
 
 C'est sur ce dernier point que vous allez vous pencher lors de cet exercice, en procédant à la revue du code javascript présent dans ce *dépôt github*.
 
